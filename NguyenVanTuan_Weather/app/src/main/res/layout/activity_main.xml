@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hà Nội"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Nhiều mây"
+        android:id="@+id/tvPhrase" />
+
+    <TextView
+        android:id="@+id/tvContent1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="27°C"
+        android:gravity="center"
+        android:textSize="50dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/weather"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>
